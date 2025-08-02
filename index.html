@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>🌍 Viagem pelo Universo - HTML Puro</title>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Viagem pelo Universo </h1>
+    <p>Descubra os planetas, estrelas e curiosidades do espaço sideral.</p>
+    <nav>
+      <ul>
+        <li><a href="#planetas">Planetas</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#cadastro">Cadastro Espacial</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <section id="planetas">
+    <h2>🪐 Planetas do Sistema Solar</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Ordem a partir do Sol</th>
+          <th>Tem satélites?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mercúrio</td>
+          <td>1º</td>
+          <td>Não</td>
+        </tr>
+        <tr>
+          <td>Terra 🌍</td>
+          <td>3º</td>
+          <td>Sim (1 - Lua)</td>
+        </tr>
+        <tr>
+          <td>Júpiter</td>
+          <td>5º</td>
+          <td>Sim (mais de 70)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="curiosidades">
+    <h2>✨ Curiosidades Espaciais</h2>
+    <ol>
+      <li>O Sol representa 99,86% da massa do sistema solar.</li>
+      <li>Vênus gira no sentido contrário da maioria dos planetas.</li>
+      <li>Um dia em Vênus é mais longo que um ano em Vênus.</li>
+    </ol>
+
+    <p>Veja uma imagem da Via Láctea:</p>
+    <figure>
+      <img src= "https://starwalk.space/gallery/images/milky-way-faq/1140x641.jpg">
+    </figure>
+  </section>
+
+  <section id="cadastro">
+    <h2>👽 Cadastre-se Viajantee Para Conhecer Mais</h2>
+    <form>
+      <label>Nome: <input type="text" name="nome"></label><br><br>
+      <label>Email: <input type="email" name="email"></label><br><br>
+      <label>Planeta favorito:
+        <select name="planeta">
+          <option>Terra</option>
+          <option>Marte</option>
+          <option>Saturno</option>
+        </select>
+      </label><br><br>
+      <label>
+        Deseja receber novidades?
+        <input type="checkbox" name="novidades">
+      </label><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <hr>
+    <p>&copy; 2025 - Criado por Samuel Joshuan apenas com HTML. <br> Esse projeto foi oferecido pela DIO.me</p>
+  </footer>
+
+</body>
+</html>
